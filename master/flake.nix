@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-controlStructures-master.flake = false;
+  inputs.src-controlStructures-master.ref   = "refs/heads/master";
   inputs.src-controlStructures-master.owner = "TakeYourFreedom";
-  inputs.src-controlStructures-master.ref   = "master";
   inputs.src-controlStructures-master.repo  = "Additional-Control-Structures-for-Nim";
   inputs.src-controlStructures-master.type  = "github";
   
