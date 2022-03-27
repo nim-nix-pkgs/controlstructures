@@ -11,6 +11,7 @@
   inputs.src-controlStructures-master.ref   = "refs/heads/master";
   inputs.src-controlStructures-master.owner = "TakeYourFreedom";
   inputs.src-controlStructures-master.repo  = "Additional-Control-Structures-for-Nim";
+  inputs.src-controlStructures-master.dir   = "";
   inputs.src-controlStructures-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
